@@ -42,7 +42,5 @@ def main_app():
 if __name__ == '__main__':
     with open('Modelo/modelo2.pkl', 'rb') as r:
         model = pickle.load(r)
-    url = "http://localhost:5000"
-    webbrowser.open_new(url)
-    app.run()
+    app.run(host="127.0.0.1",port=8080,debug=True)
 
