@@ -1,3 +1,0 @@
-pip install flask
-
-export FLASK_APP=app_seguridad.py && flask run --host=0.0.0.0
